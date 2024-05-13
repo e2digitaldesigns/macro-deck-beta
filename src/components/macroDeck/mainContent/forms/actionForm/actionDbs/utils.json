@@ -1,0 +1,71 @@
+{
+  "plugin": "ut",
+  "value": "ut",
+  "displayText": "Utilities",
+  "pluginActions": [
+    {
+      "action": "utAPI",
+      "value": "utAPI",
+      "displayText": "API",
+      "displayTextForm": "API",
+      "pluginData": [
+        {
+          "fieldType": "text",
+          "fieldName": "url",
+          "displayText": "Url",
+          "dataSet": ""
+        }
+      ]
+    },
+    {
+      "action": "utDelay",
+      "value": "utDelay",
+      "displayText": "Delay",
+      "displayTextForm": "Delay",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "seconds",
+          "displayText": "Seconds",
+          "dataSet": "ut:seconds"
+        }
+      ]
+    },
+    {
+      "action": "utExe",
+      "value": "utExe",
+      "displayText": "Open Program",
+      "displayTextForm": "Open Program",
+      "pluginData": [
+        {
+          "fieldType": "file",
+          "fieldName": "filepath",
+          "displayText": "Exe",
+          "dataSet": "",
+          "fileType": ".exe"
+        }
+      ]
+    },
+    {
+      "action": "utSound",
+      "value": "utSound",
+      "displayText": "Play Sound",
+      "displayTextForm": "Play Sound",
+      "pluginData": [
+        {
+          "fieldType": "file",
+          "fieldName": "filepath",
+          "displayText": "Mp3",
+          "dataSet": "",
+          "fileType": ".mp3"
+        },
+        {
+          "fieldType": "range",
+          "fieldName": "volume",
+          "displayText": "Volume",
+          "dataSet": ""
+        }
+      ]
+    }
+  ]
+}

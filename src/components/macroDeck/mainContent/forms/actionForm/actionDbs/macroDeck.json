@@ -1,0 +1,84 @@
+{
+  "plugin": "md",
+  "value": "md",
+  "displayText": "Macro Deck",
+  "pluginActions": [
+    {
+      "action": "mdHome",
+      "value": "mdHome",
+      "displayText": "Home Page",
+      "displayTextForm": "Home Page",
+      "pluginData": []
+    },
+    {
+      "action": "mdFullScreen",
+      "value": "mdFullScreen",
+      "displayText": "Full Screen",
+      "displayTextForm": "Full Screen",
+      "pluginData": []
+    },
+    {
+      "action": "mdFsToggle",
+      "value": "mdFsToggle",
+      "displayText": "Full Screen Toggle",
+      "displayTextForm": "Full Screen Toggle",
+      "pluginData": []
+    },
+    {
+      "action": "mdFsClose",
+      "value": "mdFsClose",
+      "displayText": "Full Screen Close",
+      "displayTextForm": "Full Screen Close",
+      "pluginData": []
+    },
+    {
+      "action": "mdPage",
+      "value": "mdPage",
+      "displayText": "Go to [[Page]]",
+      "displayTextForm": "Go to Page",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "pageNumber",
+          "displayText": "Page",
+          "dataSet": "md:pages"
+        }
+      ]
+    },
+    {
+      "action": "mdProfile",
+      "value": "mdProfile",
+      "displayText": "Go to [[Profile]]",
+      "displayTextForm": "Go to Profile",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "profileId",
+          "displayText": "Profile",
+          "dataSet": "md:profiles"
+        }
+      ]
+    },
+    {
+      "action": "mdProfileSelect",
+      "value": "mdProfileSelect",
+      "displayText": "Profile Select Page",
+      "displayTextForm": "Profile Select Page",
+      "pluginData": []
+    },
+    {
+      "action": "mdRefresh",
+      "value": "mdRefresh",
+      "displayText": "Refresh App",
+      "displayTextForm": "Refresh App",
+      "pluginData": []
+    },
+    {
+      "action": "mdSettings",
+      "value": "mdSettings",
+      "displayText": "Settings Page",
+      "displayTextForm": "Settings Page",
+      "pluginData": []
+    }
+  ]
+}

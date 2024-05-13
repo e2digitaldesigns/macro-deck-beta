@@ -1,0 +1,63 @@
+{
+  "plugin": "mc",
+  "value": "mc",
+  "displayText": "Media Controls",
+  "pluginActions": [
+    {
+      "action": "AudioVolDown",
+      "value": "AudioVolDown",
+      "displayText": "Volume Down",
+      "displayTextForm": "Volume Down",
+      "pluginData": []
+    },
+    {
+      "action": "AudioVolUp",
+      "value": "AudioVolUp",
+      "displayText": "Volume Up",
+      "displayTextForm": "Volume Up",
+      "pluginData": []
+    },
+    {
+      "action": "AudioMute",
+      "value": "AudioMute",
+      "displayText": "Mute",
+      "displayTextForm": "Mute",
+      "pluginData": []
+    },
+    {
+      "action": "AudioNext",
+      "value": "AudioNext",
+      "displayText": "Next",
+      "displayTextForm": "Next",
+      "pluginData": []
+    },
+    {
+      "action": "AudioPause",
+      "value": "AudioPause",
+      "displayText": "Pause",
+      "displayTextForm": "Pause",
+      "pluginData": []
+    },
+    {
+      "action": "AudioStop",
+      "value": "AudioStop",
+      "displayText": "Stop",
+      "displayTextForm": "Stop",
+      "pluginData": []
+    },
+    {
+      "action": "AudioPlay",
+      "value": "AudioPlay",
+      "displayText": "Play",
+      "displayTextForm": "Play",
+      "pluginData": []
+    },
+    {
+      "action": "AudioPrev",
+      "value": "AudioPrev",
+      "displayText": "Previous",
+      "displayTextForm": "Previous",
+      "pluginData": []
+    }
+  ]
+}

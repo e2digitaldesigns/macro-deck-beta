@@ -1,0 +1,137 @@
+{
+  "plugin": "obs",
+  "value": "obs",
+  "displayText": "OBS",
+  "pluginActions": [
+    {
+      "action": "obsSceneChange",
+      "value": "obsSceneChange",
+      "displayText": "Scene",
+      "displayTextForm": "Scene",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "sceneName",
+          "displayText": "Scene",
+          "dataSet": "obs:scenes"
+        }
+      ]
+    },
+    {
+      "action": "obsLayerToggle",
+      "value": "obsLayerToggle",
+      "displayText": "Layer Toggle",
+      "displayTextForm": "Layer Toggle",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "sceneName",
+          "displayText": "Scene",
+          "dataSet": "obs:scenes"
+        },
+        {
+          "fieldType": "select",
+          "fieldName": "sceneItemId",
+          "displayText": "Layer",
+          "dataSet": "obs:scenes:items"
+        }
+      ]
+    },
+    {
+      "action": "obsLayerHide",
+      "value": "obsLayerHide",
+      "displayText": "Layer Hide",
+      "displayTextForm": "Layer Hide",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "sceneName",
+          "displayText": "Scene",
+          "dataSet": "obs:scenes"
+        },
+        {
+          "fieldType": "select",
+          "fieldName": "sceneItemId",
+          "displayText": "Layer",
+          "dataSet": "obs:scenes:items"
+        }
+      ]
+    },
+    {
+      "action": "obsLayerShow",
+      "value": "obsLayerShow",
+      "displayText": "Layer Show",
+      "displayTextForm": "Layer Show",
+      "pluginData": [
+        {
+          "fieldType": "select",
+          "fieldName": "sceneName",
+          "displayText": "Scene",
+          "dataSet": "obs:scenes"
+        },
+        {
+          "fieldType": "select",
+          "fieldName": "sceneItemId",
+          "displayText": "Layer",
+          "dataSet": "obs:scenes:items"
+        }
+      ]
+    },
+    {
+      "action": "obsRecordToggle",
+      "value": "obsRecordToggle",
+      "displayText": "Record Toggle",
+      "displayTextForm": "Record Toggle",
+      "pluginData": []
+    },
+    {
+      "action": "obsRecordStart",
+      "value": "obsRecordStart",
+      "displayText": "Record Start",
+      "displayTextForm": "Record Start",
+      "pluginData": []
+    },
+    {
+      "action": "obsRecordStop",
+      "value": "obsRecordStop",
+      "displayText": "Record Stop",
+      "displayTextForm": "Record Stop",
+      "pluginData": []
+    },
+    {
+      "action": "obsRecordPause",
+      "value": "obsRecordPause",
+      "displayText": "Record Pause",
+      "displayTextForm": "Record Pause",
+      "pluginData": []
+    },
+    {
+      "action": "obsRecordResume",
+      "value": "obsRecordResume",
+      "displayText": "Record Resume",
+      "displayTextForm": "Record Resume",
+      "pluginData": []
+    },
+    {
+      "action": "obsStreamToggle",
+      "value": "obsStreamToggle",
+      "displayText": "Stream Toggle",
+      "displayTextForm": "Stream Toggle",
+      "pluginData": []
+    },
+    {
+      "action": "obsStreamStart",
+      "value": "obsStreamStart",
+      "displayText": "Stream Start",
+      "displayTextForm": "Stream Start",
+      "pluginData": []
+    },
+    {
+      "action": "obsStreamStop",
+      "value": "obsStreamStop",
+      "displayText": "Stream Stop",
+      "displayTextForm": "Stream Stop",
+      "pluginData": []
+    }
+  ]
+}
